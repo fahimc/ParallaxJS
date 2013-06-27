@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>index</title>
+		<meta name="author" content="fahim.chowdhury" />
+		<!-- Date: 2013-06-27 -->
+		<script type="text/javascript" src="lib/com/fahimchowdhury/toolkitMax-v1014-compressed.js"></script>
+		<script type="text/javascript" src="lib/com/fahimchowdhury/crossb.js"></script>
+		<script type="text/javascript" src="lib/com/fahimchowdhury/Parallax.js"></script>
+		<script type="text/javascript" src="lib/com/greensock/TweenLite.js"></script>
+		<script type="text/javascript" src="lib/com/greensock/plugins/CSSPlugin.js"></script>
+		<script type="text/javascript" src="lib/com/greensock/plugins/CSSRulePlugin.js"></script>
+		<script type="text/javascript" src="lib/com/greensock/plugins/ScrollToPlugin.js"></script>
+		<script type="text/javascript" src="lib/com/greensock/easing/EasePack.js"></script>
+		<script type="text/javascript" src="src/main.js"></script>
+		<link type="text/css" rel="stylesheet" href="resource/css/style.css" />
+	</head>
+	<body>
+		
+	<div id="parallaxHolder">
+		<div class="red" id="view1"></div>
+		<div class="green" id="view2">
+			<div id="whiteBox"></div>
+			<div id="blueBox"></div>
+			
+		</div>
+		<div class="blue" id="view3"></div>
+	</div>
+	<div class="nav">
+	<div class="view3Button" onclick="Parallax.navigateTo('view1')">view 1</div>
+	<div class="view3Button" onclick="Parallax.navigateTo('view2')">view 2</div>
+	<div class="view3Button" onclick="Parallax.navigateTo('view3')">view 3</div>
+	</div>
+	</body>
+</html>
+

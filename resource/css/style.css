@@ -1,0 +1,56 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+body,html
+{
+	width:100%;
+	height:100%;
+}
+.red{
+	background-color: #f00;
+}
+
+.green{
+	background-color: #5c9900;
+}
+
+.blue{
+	background-color: #005c99;
+}
+#whiteBox,#blueBox
+{
+	position: absolute;
+	width:500px;
+	height:500px;
+	background-color: #FFFFFF;
+	background:url(../image/desert.jpg) center center;
+	top:500px;
+	left:500px;
+}
+#blueBox
+{
+	width:100px;
+	height:100px;
+	background:none;
+	background-color: #005c99;
+}
+.nav{
+	position: fixed;
+	top:0;
+}
+.view3Button
+{
+	
+	background-color: #000000;
+	color:#FFFFFF;
+	width:100px;
+	height:30px;
+	border-bottom: 1px solid #FFFFFF;
+	cursor: pointer;
+}
+.view3Button:hover
+{
+	background-color: #333333;
+}
