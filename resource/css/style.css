@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Sarina);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300);
 *
 {
 	margin:0;
@@ -7,17 +9,36 @@ body,html
 {
 	width:100%;
 	height:100%;
-}
-.red{
-	background-color: #f00;
-}
-
-.green{
-	background-color: #5c9900;
+	background:url(../image/bg.jpg) center center no-repeat; 
+	background-attachment:fixed;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 }
 
-.blue{
-	background-color: #005c99;
+
+#view3{
+	background-color: #333;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+.whiteBox
+{
+	font-size:14px;
+	width:100%;
+	text-align: center;
+z-index:1;
+	background-color: #FFFFFF; 
+	position: relative;
+	
+}
+.whiteBox p
+{
+	color:#333;
+	padding:80px 80px 80px 100px;
+	font-weight: 800;
 }
 #whiteBox,#blueBox
 {
@@ -29,28 +50,72 @@ body,html
 	top:500px;
 	left:500px;
 }
-#blueBox
+#aboutImage
 {
-	width:100px;
-	height:100px;
-	background:none;
-	background-color: #005c99;
+	z-index:0;
+	width:100%;
+	height:50%;
+	background:url(../image/about.jpg) center center;
+	margin-top: 0px;
+	position: relative;
+	border-bottom: 5px solid #fff;
 }
 .nav{
 	position: fixed;
 	top:0;
+	z-index: 999;
 }
-.view3Button
+.navButton
 {
 	
-	background-color: #000000;
+	background-color: #222;
 	color:#FFFFFF;
-	width:100px;
-	height:30px;
-	border-bottom: 1px solid #FFFFFF;
+	padding:10px;
+	margin-bottom:1px;
 	cursor: pointer;
 }
-.view3Button:hover
+.navButton:hover
 {
 	background-color: #333333;
+}
+#letters
+{
+	position: absolute;
+	width:100%;
+	height:100%;
+	background:url(../image/letters.jpg);
+	bottom: 0;
+}
+#logo
+{
+	font-family: 'Sarina', cursive;
+	font-size: 30px;
+	text-shadow: 2px 2px 5px #333;
+	color:#FFFFFF;
+	line-height: 80%;
+}
+#logo .green
+{
+	color:#B7E611;
+}
+.logoHolder
+{
+	position: absolute;
+	top:45%;
+	padding-top:40px;
+	padding-bottom:40px;
+	background-color: #222;
+	width:100%;
+	text-align: center;
+	border-bottom: 3px solid #333;
+	border-top: 3px solid #333;
+}
+#palette
+{
+	background:url(../image/palette.png);
+	position: absolute;
+	width:800px;
+	height:534px;
+	top:50px;
+	left:60%;
 }

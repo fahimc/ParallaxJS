@@ -14,7 +14,8 @@
 		Parallax.addListener("view2","VIEW_IN",view2Scroll);
 		Parallax.addListener("parallaxHolder","ON_CHANGE",onChange);
 		
-		Parallax.setStartPoint("view2","whiteBox",{top:50,left:300,width:40,height:50});
+
+		Parallax.setStartPoint("view2","aboutImage",{height:0,marginTop:-300});
 		
 		Parallax.navigateTo("view3");
 	}
