@@ -12,6 +12,7 @@
 		Parallax.init();
 		Parallax.addListener("view1","VIEW_OUT",view1Scroll);
 		Parallax.addListener("view2","VIEW_IN",view2Scroll);
+		Parallax.addListener("parallaxHolder","ON_CHANGE",onChange);
 		
 		Parallax.setStartPoint("view2","whiteBox",{top:50,left:300,width:40,height:50});
 		
@@ -25,6 +26,10 @@
 	{
 		//console.log("view 2",percent);
 		
+	}
+	function onChange(index)
+	{
+		console.log(index);
 	}
 	Main();
 }
