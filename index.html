@@ -20,38 +20,37 @@
 	</head>
 	<body>
 
-		<div id="parallaxHolder">
+		<div id="parallaxHolder" style="visibility: hidden;">
 			<div id="view1">
-			<div class="logoHolder">
-				<h1 id="logo"><span class="green">mint</span> creations</h1>
-			</div>
+			<p class="logo">ParallaxJS</p>
 			</div>
 			<div id="view2">
-				<div class="whiteBox">
-					
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-					</p>
-					
-				</div>
-				<div id="aboutImage"></div>
+				<p id="slideIn">SLIDE IN TEXT</p>
+			</div>
+			<div id="view4">
+				
 			</div>
 			<div id="view3">
 				
 			</div>
 			
+			
 		</div>
-		<div class="nav">
-			<div class="navButton" onclick="Parallax.navigateTo(0)">
-				Home
+		<div id="nav">
+			<div class="navButton selected" onclick="Parallax.navigateTo(0)">
+				Slide 1
 			</div>
 			<div class="navButton" onclick="Parallax.navigateTo(1)">
-				About
+				Slide 2
 			</div>
 			<div class="navButton" onclick="Parallax.navigateTo(2)">
-				Portfolio
+				Slide 3
+			</div>
+			<div class="navButton" onclick="Parallax.navigateTo(3)">
+				Slide 4
 			</div>
 		</div>
+		
 	</body>
 </html>
 

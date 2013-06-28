@@ -14,10 +14,11 @@
 		Parallax.addListener("view2","VIEW_IN",view2Scroll);
 		Parallax.addListener("parallaxHolder","ON_CHANGE",onChange);
 		
-
-		Parallax.setStartPoint("view2","aboutImage",{height:0,marginTop:-300});
+		Parallax.setStartPoint("view2","slideIn",{left:"-300px"})
 		
-		Parallax.navigateTo("view3");
+		document.getElementById("parallaxHolder").style.visibility="visible";
+		
+		
 	}
 	function view1Scroll(percent)
 	{
@@ -30,7 +31,20 @@
 	}
 	function onChange(index)
 	{
-		console.log(index);
+		var nav=document.getElementById("nav");
+		var currentIndex=0;
+		for(var a=0;a<nav.childNodes.length;a++)
+		{
+			var child=nav.childNodes[a];
+			if(child.className && child.className.indexOf("navButton")>=0)
+			{
+				if(child.className.indexOf("selected")>=0)child.className=child.className.replace(" selected","");
+				if(currentIndex == index)child.className+=" selected";
+				
+				currentIndex++;
+			}
+		}
+		
 	}
 	Main();
 }
