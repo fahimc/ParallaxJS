@@ -82,3 +82,12 @@ body,html
 	width: 100%;
 	text-align: center;
 }
+#slideBack
+{
+	top:25%;
+	left:300px;
+	position: absolute;
+	font-size: 20em;
+	width: 100%;
+	color:#427a8e;
+}

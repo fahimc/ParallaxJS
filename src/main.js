@@ -15,6 +15,7 @@
 		Parallax.addListener("parallaxHolder","ON_CHANGE",onChange);
 		
 		Parallax.setStartPoint("view2","slideIn",{left:"-300px"})
+		Parallax.setStartPoint("view2","slideBack",{left:"100%",fontSize:"10px",top:"50%",opacity:"0px"})
 		
 		document.getElementById("parallaxHolder").style.visibility="visible";
 		
