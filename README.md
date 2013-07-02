@@ -7,6 +7,9 @@ You can also hook into the API's events and add a callback method for when a vie
 
 Finally there is a **'ON_CHANGE'** event which is triggered when a page changes to the next page. An page index is passed to the callback method.  
 
+##Demo
+[Demo 1](http://8fc.co.uk/preview/parallaxjs/)
+
 # How to Use This Library
 
 ### HTML Setup  
@@ -61,7 +64,7 @@ Within  this method you need to call 'Parallax.init()' method to initialise API.
 ```
 
 if (window.addEventListener) {
-  window.addEventListener("load", onLoad);
+	window.addEventListener("load", onLoad);
 } else {
 	window.attachEvent("onload", onLoad);
 }
