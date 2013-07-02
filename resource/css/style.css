@@ -30,6 +30,7 @@ body,html
 #view3
 {
 	background-color: #A2AB58;
+	background:url(../image/green-bg.jpg) #A2AB58 center center no-repeat; 
 	-moz-box-shadow:    inset 0px 10px 10px rgba(0,0,0,0.3);
   -webkit-box-shadow: inset 0px 10px 10px rgba(0,0,0,0.3);
   box-shadow:        inset 0px 10px 10px rgba(0,0,0,0.3);
@@ -81,13 +82,25 @@ body,html
 	font-size: 20em;
 	width: 100%;
 	text-align: center;
+	 
 }
 #slideBack
 {
-	top:25%;
-	left:300px;
+	top:40%;
+	left:10px;
 	position: absolute;
-	font-size: 20em;
+	font-size: 15em;
 	width: 100%;
 	color:#427a8e;
+}
+#girl{
+	left:0px;
+	bottom:0;
+	position: absolute;
+}
+#stickman
+{
+	left:0px;
+	top:0;
+	position: absolute;
 }

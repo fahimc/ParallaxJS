@@ -16,6 +16,8 @@
 		
 		Parallax.setStartPoint("view2","slideIn",{left:"-300px"})
 		Parallax.setStartPoint("view2","slideBack",{left:"100%",fontSize:"10px",top:"50%",opacity:"0px"})
+		Parallax.setStartPoint("view3","girl",{left:"60%"})
+		
 		
 		document.getElementById("parallaxHolder").style.visibility="visible";
 		
