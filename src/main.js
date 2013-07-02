@@ -6,7 +6,7 @@
 			window.attachEvent("onload", onLoad);
 		}
 
-	}
+	};
 
 	function onLoad() {
 		Parallax.init();
@@ -22,16 +22,16 @@
 		document.getElementById("parallaxHolder").style.visibility="visible";
 		
 		
-	}
+	};
 	function view1Scroll(percent)
 	{
 		//console.log("view 1",percent);
-	}
+	};
 	function view2Scroll(percent)
 	{
 		//console.log("view 2",percent);
 		
-	}
+	};
 	function onChange(index)
 	{
 		var nav=document.getElementById("nav");
@@ -48,7 +48,7 @@
 			}
 		}
 		
-	}
+	};
 	Main();
 }
 )(window); 
