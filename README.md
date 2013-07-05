@@ -138,5 +138,22 @@ function onChange(index)
 {
  console.log("page has changed to ",index);
 }
+```
 
-   
+# Navigate to a Page
+To navigate directly to a page you can use 'Parallax.navigateTo' method.  
+
+```
+Parallax.navigateTo(index:int)
+```
+
+This method will navigate to the page with the index you provide as the parameter. The index begins from 0 and each page is indexed by their order in the 'parallaxHolder' element.
+
+###Example:
+
+```
+<div class="navButton selected" onclick="Parallax.navigateTo(0)">
+    Slide 1
+</div>
+``` 
+
