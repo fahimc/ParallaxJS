@@ -10,6 +10,15 @@ Finally there is a **'ON_CHANGE'** event which is triggered when a page changes 
 ##Demo
 [Demo 1](http://8fc.co.uk/preview/parallaxjs/)
 
+##Browser Support
+
+* IE 8 and Above
+* Chrome
+* Firefox
+* Safari
+* Android Browser and Chrome on Android
+* iPhone/iPad Safari
+
 # How to Use This Library
 
 ### HTML Setup  
@@ -156,4 +165,5 @@ This method will navigate to the page with the index you provide as the paramete
     Slide 1
 </div>
 ``` 
+
 
